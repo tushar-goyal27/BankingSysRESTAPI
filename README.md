@@ -1,6 +1,8 @@
 # Banking System RESTAPI
 
-REST API for a model Banking System developed with ExpressJS and MongoDB.
+REST API for a model Banking System developed with ExpressJS and MongoDB.  
+
+The api is hosted at https://bankingsysrestapipriv.vercel.app. You can test it by sending requests to this url.
 
 To run locally, dowload the code or clone the repository  
 Open the terminal in the folder where app.js is present and run the following command
@@ -24,7 +26,7 @@ npm start
 ### SignUp
 Request Url 
 ```
-localhost:5000/user/signup
+/user/signup
 ```
 Request Mandatory Headers: None  
 Request Body: JSON(All required Parameters)  
@@ -44,7 +46,7 @@ Example:
 ### Login
 Request Url 
 ```
-localhost:5000/user/login
+/user/login
 ```
 Request Mandatory Headers: None  
 Request Body: JSON(All required Parameters)  
@@ -61,7 +63,7 @@ IMPORTANT: This request will return a token. Add it to all the further urls as a
 ### Create Account
 Request Url 
 ```
-localhost:5000/account/create
+/account/create
 ```
 Request Mandatory Headers: 
 ```
@@ -89,7 +91,7 @@ For type "loan", the request body json parameters are
 ### Get Details
 Request Url 
 ```
-localhost:5000/account/getdetails
+/account/getdetails
 ```
 Request Mandatory Headers: 
 ```
@@ -106,7 +108,7 @@ Request Body: JSON(All required Parameters)
 ### Get Passbook
 Request Url 
 ```
-localhost:5000/account/getpassbook
+/account/getpassbook
 ```
 Request Mandatory Headers: 
 ```
@@ -123,7 +125,7 @@ Request Body: JSON(All required Parameters)
 ### Deposit
 Request Url 
 ```
-localhost:5000/transact/deposit
+/transact/deposit
 ```
 Request Mandatory Headers: 
 ```
@@ -141,7 +143,7 @@ Request Body: JSON(All required Parameters)
 ### Withdraw
 Request Url 
 ```
-localhost:5000/transact/transfer
+/transact/transfer
 ```
 Request Mandatory Headers: 
 ```
@@ -160,7 +162,7 @@ Request Body: JSON(All required Parameters)
 ### Transfer
 Request Url 
 ```
-localhost:5000/transact/transfer
+/transact/transfer
 ```
 Request Mandatory Headers: 
 ```
@@ -179,7 +181,7 @@ Request Body: JSON(All required Parameters)
 ### Repay Loan
 Request Url 
 ```
-localhost:5000/transact/repay
+/transact/repay
 ```
 Request Mandatory Headers: 
 ```
